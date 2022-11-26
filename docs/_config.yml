@@ -3,11 +3,11 @@ description: write code like poetry. focus on
 favicon: https://simfg.github.io/favicon.ico
 
 github:
-  is_project_page: true
+  is_project_page: false
   repository_url: https://github.com/SimFG/simfg.github.io
   zip_url: https://github.com/SimFG/simfg.github.io/archive/refs/heads/main.zip
 
-show_downloads: true
+show_downloads: false
 remote_theme: pages-themes/cayman@v0.2.0
 markdown: kramdown
 plugins:
