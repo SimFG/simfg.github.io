@@ -1,6 +1,7 @@
 ---
 title: simfg's blog
 is_project_page: true
+repository_url: https://github.com/SimFG/simfg.github.io
 ---
 ✍️ all posts
 
