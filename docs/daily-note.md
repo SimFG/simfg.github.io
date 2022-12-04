@@ -2,6 +2,41 @@
 title: 每日笔记
 ---
 
+## 2022.12.4
+- [相似搜索 youtube视频](https://youtube.com/playlist?list=PLIUOU7oqGTLhlWpTz4NnuT3FekouIVlqc)
+
+## 2022.12.2
+- [手写笔记本应用](https://github.com/xournalpp/xournalpp/)
+- [一个网页工具，用来生成各种三角形拼接而成的背景图片](https://trianglify.io/)
+- [开源的短链接服务](https://github.com/steven-tey/dub)
+- [开源的 Web 笔记应用，用户的笔记保存在自己的 GitHub 仓库](https://github.com/batnoter/batnoter)
+- [json 转换为 图像](https://github.com/AykutSarac/jsoncrack.com)
+- 美剧（丧失国度）
+
+## 2022.12.1
+- [iterm2 全屏呼出](https://blog.csdn.net/fvdfsdafdsafs/article/details/88820452)
+- [用于调试api的json预览工具](https://github.com/apihero-run/jsonhero-web)
+- [c++ 项目列表](https://github.com/fffaraz/awesome-cpp)
+- [现代c++教程](https://changkun.de/modern-cpp/zh-cn/00-preface/)
+- [graphQL 项目](https://github.com/dgraph-io/dgraph)
+- [go 版本管理库](https://github.com/blang/semver)
+
+## 2022.11.30
+- [golang 一些小坑](https://mp.weixin.qq.com/s/p572g5KcSwy2ri40d1cPTg)
+- [机器学习系列](https://github.com/Visualize-ML)
+- [交互式终端大结局](https://github.com/c-bata/go-prompt)
+- [各种开发免费资源](https://github.com/ripienaar/free-for-dev)
+- 网络穿透工具
+1. [https://github.com/Dreamacro/clash](https://github.com/Dreamacro/clash)
+2. [https://github.com/fatedier/frp](https://github.com/fatedier/frp)
+3. [https://github.com/v2fly/v2ray-core](https://github.com/v2fly/v2ray-core)
+- [emoji编码表](http://www.unicode.org/emoji/charts/full-emoji-list.html)
+
+## 2022.11.29
+- [go 终端gui用户接口](https://github.com/jroimartin/gocui)
+- [终端自动补全](https://github.com/withfig/autocomplete)
+- [代码行数小工具 cloc]
+
 ## 2022.11.25
 - [epub 在线阅读](https://reader.ttsu.app/manage) [源码](https://github.com/ttu-ttu/ebook-reader)
 - [模拟各种物联网开发板，比如树莓派 Pico、Arduino、ESP32等](https://wokwi.com/)
