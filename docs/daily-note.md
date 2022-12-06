@@ -1,5 +1,6 @@
 ---
 title: 每日笔记
+show_first: true
 ---
 
 ## 2022.12.4
