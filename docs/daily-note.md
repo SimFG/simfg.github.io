@@ -3,6 +3,53 @@ title: 每日笔记
 show_first: true
 ---
 
+## 2022.12.14
+- [一些关于时间和定时任务的库](https://colobu.com/2022/11/26/some-time-and-cron-libs/)
+- [配色方案](https://github.com/catppuccin/catppuccin)
+- [go terminal ui组件](https://github.com/charmbracelet/bubbles)
+- [零拷贝](https://colobu.com/2022/11/19/zero-copy-and-how-to-use-it-in-go/)
+
+## 2022.12.13
+- [为什么GOLANG的TIMER实现使用四叉堆而不是二叉堆](https://vearne.cc/archives/39627)
+
+## 2022.12.12
+- [用 Rust 打包网页生成很小的桌面 App](https://github.com/tw93/Pake)
+- [什么是缓存雪崩、缓存击穿、缓存穿透？](https://zhuanlan.zhihu.com/p/346651831)
+- go reflect.DeepEqual 注意事项
+```go
+func TestDeepEqual(t *testing.T) {
+	var a [][]string
+	b := copyA(a)
+	//var a, b [][]string
+	fmt.Println(a == nil, b == nil)
+	assert.True(t, reflect.DeepEqual(a, b), fmt.Sprintf("arr a: %+v, b: %+v", a, b))
+}
+
+func copyA(a [][]string) [][]string {
+	b := make([][]string, len(a))
+	for i, p := range a {
+		b[i] = append(b[i], p...)
+	}
+	return b
+}
+```
+
+## 2022.12.8
+- [chatgpt 反向代理，无须注册即可体验](https://gpt.chatapi.art)
+- [go 并发赋值安全性](https://blog.csdn.net/K346K346/article/details/115099353)
+- [go 跨平台GUI库](https://github.com/fyne-io/fyne)
+
+## 2022.12.7
+- [go test测试输出优化](https://github.com/kyoh86/richgo)
+
+## 2022.12.6
+- [go 反射](https://draveness.me/golang/docs/part2-foundation/ch04-basic/golang-reflect/)
+- [接口指针与结构体指针](https://blog.csdn.net/qq_26981997/article/details/52608081)
+- [Go 指针与接口那些事](https://chenhe.me/post/pointer-and-interface-in-go/)
+- [Go reflection 三定律与最佳实践](https://halfrost.com/go_reflection/)
+- [zsh 补全脚本介绍](http://chuquan.me/2020/11/28/how-to-write-a-zsh-completion-script/)
+- [Fig Autocomplete & Cobra](https://fig.io/docs/guides/integrating/integrations/cobra)
+
 ## 2022.12.4
 - [相似搜索 youtube视频](https://youtube.com/playlist?list=PLIUOU7oqGTLhlWpTz4NnuT3FekouIVlqc)
 
