@@ -3,11 +3,26 @@ title: 每日笔记
 show_first: true
 ---
 
+## 2022.12.19
+- [你所不知道的ndJSON：序列化与管道流](https://cloud.tencent.com/developer/article/1506199)
+- [尝试使用Streams API](https://kknews.cc/code/qg5j5n8.html)
+
+## 2022.12.16
+- [go 验证码项目](https://github.com/wenlng/go-captcha)
+- [两个像素引擎介绍](https://tcc.lovebyte.party/day0/)
+- [像素游戏引擎 pico-8](https://www.lexaloffle.com/pico-8.php)
+- [go guru 静态分析](https://github.com/golang/tools/tree/master/cmd/guru)
+
 ## 2022.12.14
 - [一些关于时间和定时任务的库](https://colobu.com/2022/11/26/some-time-and-cron-libs/)
 - [配色方案](https://github.com/catppuccin/catppuccin)
 - [go terminal ui组件](https://github.com/charmbracelet/bubbles)
 - [零拷贝](https://colobu.com/2022/11/19/zero-copy-and-how-to-use-it-in-go/)
+- [mac 菜单栏运行脚本](https://github.com/matryer/xbar)
+- go数据库
+1. [https://github.com/cockroachdb/cockroach](https://github.com/cockroachdb/cockroach)
+2. [https://github.com/pingcap/tidb](https://github.com/pingcap/tidb)
+3. [https://github.com/mongodb/mongo](https://github.com/mongodb/mongo)
 
 ## 2022.12.13
 - [为什么GOLANG的TIMER实现使用四叉堆而不是二叉堆](https://vearne.cc/archives/39627)

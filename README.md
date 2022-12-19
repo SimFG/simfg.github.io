@@ -8,8 +8,10 @@
 ## 看看
 - [阮一峰的网络日志](https://www.ruanyifeng.com/blog/)
 - [鸟窝](https://colobu.com/)
+- [Hacker News](https://news.ycombinator.com/newest)
 
 ## 2022.12
+- [每周总结 12.12-12.16](https://simfg.github.io/2022-12-3)
 - [个人MAC开发环境配置](https://simfg.github.io/dev-setting)
 - [每周总结 12.5-12.9](https://simfg.github.io/2022-12-2)
 - [终端最美工具fig，自定义cli补全](https://simfg.github.io/fig)

@@ -27,3 +27,4 @@ show_first: true
 ## 开发工具
 - Maccy：管理粘贴板
 - itsycal：日历小工具
+- xbar：状态栏运行脚本
