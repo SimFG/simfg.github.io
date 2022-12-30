@@ -3,9 +3,17 @@ title: 每日笔记
 show_first: true
 ---
 
+## 2022.12.30
+- [一个图片和音频的搜索引擎](https://wordpress.org/openverse/)
+
+## 2022.12.29
+- [深度学习教学](https://github.com/chenyuntc/pytorch-book)
+
 ## 2022.12.19
 - [你所不知道的ndJSON：序列化与管道流](https://cloud.tencent.com/developer/article/1506199)
 - [尝试使用Streams API](https://kknews.cc/code/qg5j5n8.html)
+- [2w 字带你实战 ElasticSearch ！](https://z.itpub.net/article/detail/DE8FAD577398F31C8FD017EEDB195A58)
+- [go string 和 slice byte高效转换](https://colobu.com/2022/09/06/string-byte-convertion/)
 
 ## 2022.12.16
 - [go 验证码项目](https://github.com/wenlng/go-captcha)

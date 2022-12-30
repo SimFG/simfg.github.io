@@ -7,6 +7,7 @@ repository_url: https://github.com/SimFG/simfg.github.io
 
 ## 推荐
 - [🔥 每日笔记，包括阅读的文章和有趣Github仓库](https://simfg.github.io/daily-note)
+- [个人项目：etcd-analysis，查看etcd数据大小分布](https://github.com/SimFG/etcd-analysis)
 - [个人项目：Interfacer，给接口快速添加新方法工具](https://simfg.github.io/interfacer)
 
 ## 看看
