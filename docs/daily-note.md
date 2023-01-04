@@ -294,7 +294,7 @@ func copyA(a [][]string) [][]string {
 - [Makefile中.PHONY的作用](https://www.cnblogs.com/idorax/p/9306528.html)
 - cmake 依赖第三方库，同时编译其源文件
 
-1. sh链接到相应的cmakelist.txt
+1.sh链接到相应的cmakelist.txt
 
 其中SCRIPTS_DIR表示当前路径，CMAKE_DIR表示需要编译的CMakeLists.txt目录，BUILD_OUTPUT_DIR表示cmake输出目录
 
@@ -309,7 +309,7 @@ cmake ${CMAKE_DIR}
 popd
 ```
 
-2. 通过cmakelist获取第三方库，已protobuf为例
+2.通过cmakelist获取第三方库，已protobuf为例
 
 其中FetchContent_Declare只是声明，如果不执行其他的指令将会获取文件，
 FetchContent_Populate调用后，将会把变量protobuf_POPULATED进行赋值，保证不会不会执行第二次
@@ -342,9 +342,10 @@ if ( NOT protobuf_POPULATED )
                       EXCLUDE_FROM_ALL )
 endif()
 ```
-3. 在第一个sh文件中添加相应的make，如
-```
 
+3.在第一个sh文件中添加相应的make，如
+
+```
 SCRIPTS_DIR=$(dirname "$0")
 CMAKE_DIR="${SCRIPTS_DIR}/../cmake"
 BUILD_OUTPUT_DIR="${SCRIPTS_DIR}/../cmake-build"
@@ -770,7 +771,7 @@ type nodeCtx struct {
 - 节点
   - Name 节点名称，在一个流程图中用于标识节点
   - Operate 如何处理Msg
-  
+
 ```
 type Node interface {
 	Name() string
