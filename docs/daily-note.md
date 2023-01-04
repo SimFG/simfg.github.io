@@ -3,8 +3,21 @@ title: 每日笔记
 show_first: true
 ---
 
+## 2023.1.3
+- [linux neovim 配置](https://martins3.github.io/My-Linux-Config/docs/nvim.html)
+- [mac neovim配置](https://zhuanlan.zhihu.com/p/382092667)
+- [prometheus资料](https://yunlzheng.gitbook.io/prometheus-book/)
+
+## 2023.1.2
+- [电影资料库 xiaoya](http://alist.xiaoya.pro/)
+- [电影资料库 七米蓝](https://al.chirmyram.com/)
+- [https://alist.advanced360.top/](https://alist.advanced360.top/)
+- [https://pan.arley.cn/](https://pan.arley.cn/)
+- [https://apps.weixinqqq.com/](https://apps.weixinqqq.com/)
+
 ## 2022.12.30
 - [一个图片和音频的搜索引擎](https://wordpress.org/openverse/)
+- [k8s教程](https://github.com/guangzhengli/k8s-tutorials)
 
 ## 2022.12.29
 - [深度学习教学](https://github.com/chenyuntc/pytorch-book)
@@ -280,8 +293,11 @@ func copyA(a [][]string) [][]string {
 - [go 第三方库集合](https://github.com/avelino/awesome-go)
 - [Makefile中.PHONY的作用](https://www.cnblogs.com/idorax/p/9306528.html)
 - cmake 依赖第三方库，同时编译其源文件
+
 1. sh链接到相应的cmakelist.txt
+
 其中SCRIPTS_DIR表示当前路径，CMAKE_DIR表示需要编译的CMakeLists.txt目录，BUILD_OUTPUT_DIR表示cmake输出目录
+
 ```
 SCRIPTS_DIR=$(dirname "$0")
 CMAKE_DIR="${SCRIPTS_DIR}/../cmake"
@@ -292,10 +308,13 @@ pushd ${BUILD_OUTPUT_DIR}
 cmake ${CMAKE_DIR}
 popd
 ```
+
 2. 通过cmakelist获取第三方库，已protobuf为例
+
 其中FetchContent_Declare只是声明，如果不执行其他的指令将会获取文件，
 FetchContent_Populate调用后，将会把变量protobuf_POPULATED进行赋值，保证不会不会执行第二次
 add_subdirectory，获取相应的文件，并进行初步编译，这样并不会生出二进制文件，而是生出一系列的make指令
+
 ```
 set( PROTOBUF_SOURCE_URL
      "https://github.com/protocolbuffers/protobuf/releases/download/v3.9.0/protobuf-cpp-3.9.0.zip" )
@@ -357,6 +376,7 @@ popd
 
 ## 2022.10.8
 - go 命令
+
 ```
  go list -m github.com/milvus-io/milvus/api 查看go.mod下的版本
  go list -m all 所有依赖
@@ -370,7 +390,9 @@ popd
  go get -u github.com/milvus-io/milvus/api 升级最新版本
  
 ```
+
 - shell 
+
 ```
 // 判断git本地是否存在分支
 if git rev-parse --verify <branch_name>;then
@@ -445,6 +467,7 @@ commitID=$(git ls-remote https://github.com/milvus-io/milvus.git refs/heads/mast
 - [zstd](https://segmentfault.com/a/1190000039300144) 一种压缩工具
 - [linux 120条命令](https://github.com/mingongge/Learn-a-Linux-command-every-day)
 - mock生成
+
 ```
 //go:generate mockery --name=ICollectionDb
  mockery --all
@@ -456,6 +479,7 @@ commitID=$(git ls-remote https://github.com/milvus-io/milvus.git refs/heads/mast
 
 ## 2022.9.20
 - 工具
+
 1. 线性拟合工具
 - https://atool.vip/fitting/
 - https://www.graphpad.com/quickcalcs/linear1/
@@ -465,6 +489,7 @@ commitID=$(git ls-remote https://github.com/milvus-io/milvus.git refs/heads/mast
 
 ## 2022.9.15
 - go指令
+
 ```
 go get 指定commit 版本
 go get github.com/xxx/xxx@commit-id
@@ -476,6 +501,7 @@ go mod tidy
 ## 2022.9.13
 - [go reading](https://github.com/geektutu)
 - go 插件
+
 1. go plugin: https://mojotv.cn/go/golang-plugin-tutorial
 2. go hook: https://www.cnblogs.com/catch/p/10973611.html
 
@@ -484,29 +510,38 @@ go mod tidy
 
 ## 2022.8.26
 - 股票仓库
+
 1. https://github.com/shidenggui/easyquotation
 2. https://github.com/hugo2046/Quantitative-analysis
 3. https://github.com/wangshub/RL-Stock
+
 - [机器学习引导书](http://inter.keybook.datawhale.club/#/)
 - [数学网](https://www.shuxuele.com/)
 - [nlp资料整理](http://www.singleye.net/2019/09/nlp-%E8%B5%84%E6%BA%90%E6%95%B4%E7%90%86/)
 
 ## 2022.8.24
 - AI
+
 1. CNN - Convolutional neural network (卷积神经网络)
 2. RNN - Recurrent neural network (循环神经网络)
 3. GAN - Generative adversarial networks (生成对抗网络)
+
 - [中国大百科全书](https://www.zgbk.com/)
 
 ## 2022.8.22
 - minio
+
 1. [系统结构](https://fengmeng.xyz/p/go-minio/)
 2. [doc](http://docs.minio.org.cn/docs/)
 3. 对接KMS(Key Manager Service)
+
 - SSE(Server Side Encryption)，实现-https://github.com/minio/kes#kes
+
 4. 支持对接的STS(Security Token Service)-一种终结点服务，使客户端可以请求MinIO资源的临时凭据
+
 - Keycloak
 - Casdoor
+
 5. Veeam - 备份、恢复及数据管理解决方案领域的领军者，能够提供卓越的现代数据保护
 
 ## 2022.8.17
@@ -515,34 +550,47 @@ go mod tidy
 ## 2022.8.11
 - [数据库 oltp olap](https://blog.csdn.net/coslay/article/details/46402285)
 - 股票数据
+
 1. https://www.aigaogao.com/tools/history.html
 2. git https://github.com/bosspen1/stock
 3. git https://github.com/ricequant/rqalpha
+
 - [go checksum mismatch](http://www.wu.run/2021/05/16/checksum-mismatch-error/)
 
 ## 2022.8.10
 - pulsar io
+
 1. [source sink 介绍](https://blog.csdn.net/qq_37865420/article/details/115375052)
 2. [processing guarantees](https://www.jianshu.com/p/6077325efa01)
+
 - pulsar sql
+
 1. [sql 介绍](https://cloud.tencent.com/developer/article/1798020)
+
 - pulsar tiered storage
+
 1. [分层存储](https://www.jianshu.com/p/2bb9f347db35)
 
 ## 2022.8.8
 - pulsar schema
+
 1. [schema 入门](https://juejin.cn/post/6844904065411858439)
 2. [schema 进阶](https://juejin.cn/post/6844904065411842055)
 3. [schema 演化与相容性](https://juejin.cn/post/6844904065416052750)
 4. [schema 管理](https://juejin.cn/post/6844904066032615438)
+
 - pulsar function
+
 1. [function 介绍](https://segmentfault.com/a/1190000039302581)
 
 ## 2022.8.6
 - [pulsar 消息特性]
+
 1. https://www.jianshu.com/p/d3656d6ab970
 2. https://blog.csdn.net/weixin_41358004/article/details/118925731
+
 - [pulsar 地域复制]
+
 1. https://www.infoq.cn/article/apache-pulsar-geo-replication-part01/
 2. https://www.infoq.cn/article/apache-pulsar-geo-replication-part02
 
@@ -573,6 +621,7 @@ go mod tidy
 ## 2022.7.14
 - [短文本快速检测](https://blog.csdn.net/Taobaojishu/article/details/125213755)
 - effective-click
+
 1. 判断当前是否是搜索结果页
 2. 获取搜索结果页的链接
 3. 请求结果页的内容，然后取出html标签
@@ -677,6 +726,7 @@ timestamp oracle 全局授时服务器
 ## 2022.6.22
 ### [milvus-GroupChecker](https://github.com/milvus-io/milvus/blob/master/internal/util/timerecord/group_checker.go)
 定时批量处理string
+
 ```go
 type GroupChecker struct {
 	groupName string
@@ -691,6 +741,7 @@ type GroupChecker struct {
 	fn func(list []string)
 }
 ```
+
 - groupName，组件名称
 - d，批量处理间隔
 - lastest，string存储map，其中key为string，value为添加的时间
@@ -702,6 +753,7 @@ work 节点处理细节，
   - 收集input消息
   - 执行Node的Operate方法处理消息
   - deliverMsg，消息流转到其他节点
+
 ```
 type nodeCtx struct {
 	node                   Node
@@ -714,9 +766,11 @@ type nodeCtx struct {
 	closeWg sync.WaitGroup // block Close until work exit
 }
 ```
+
 - 节点
   - Name 节点名称，在一个流程图中用于标识节点
   - Operate 如何处理Msg
+  
 ```
 type Node interface {
 	Name() string

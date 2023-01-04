@@ -14,6 +14,7 @@ repository_url: https://github.com/SimFG/simfg.github.io
 - [阮一峰的网络日志](https://www.ruanyifeng.com/blog/)
 - [鸟窝](https://colobu.com/)
 - [Hacker News](https://news.ycombinator.com/newest)
+- [小白debug](https://www.xiaobaidebug.top/)
 
 ## 2022.12
 - [每周总结 12.12-12.16](https://simfg.github.io/2022-12-3)
